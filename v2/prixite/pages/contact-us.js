@@ -74,7 +74,7 @@ const ContactUs = () => {
                                 justifyContent: { xs: "center", md: "left" },
                             }}
                         >
-                            <a target="_blank" href='https://web.facebook.com/prixite/'>
+                            <a target="_blank" rel="noreferrer" href='https://web.facebook.com/prixite/'>
                                 <FacebookRoundedIcon
                                     htmlColor="var(--icon-grey-color)"
                                     fontSize="large"
@@ -82,7 +82,7 @@ const ContactUs = () => {
                                 />
                             </a>
 
-                            <a target="_blank" href="https://www.linkedin.com/company/prixite/about/?viewAsMember=true">
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/prixite/about/?viewAsMember=true">
                                 <LinkedInIcon
                                     htmlColor="var(--icon-grey-color)"
                                     fontSize="large"
@@ -90,7 +90,7 @@ const ContactUs = () => {
                                 />
                             </a>
 
-                            <a target="_blank" href="https://github.com/Prixite">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/Prixite">
                                 <GitHubIcon
                                     htmlColor="var(--icon-grey-color)"
                                     fontSize="large"
